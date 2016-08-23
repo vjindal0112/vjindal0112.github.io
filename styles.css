@@ -1,0 +1,379 @@
+body {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #E3F2FD;
+	overflow-x:hidden;
+}
+
+html {
+	margin: 0;
+	padding:0;
+	max-height: 100%;
+	box-sizing: border-box;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.ridOfRound {
+	border-radius:0;
+}
+
+.carousel-inner {
+	max-height: 100%;
+}
+
+.item-main {
+	max-height: 100vh;
+	overflow:hidden;
+	padding-bottom:0;
+}
+
+.item-main img{
+	width: 100vw;
+}
+
+#slideShow {
+	border-right:none;
+	max-height: 100%;
+}
+
+.navbar-brand {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 40px;
+}
+
+.navbar-collapse {
+	float:right;
+}
+
+.navbar-header {
+}
+
+.navbar-color {
+	background-color: rgba(249,249, 249, .85);
+}
+
+.navbar-fixed-top {
+	height: 50px;
+	border-bottom:none;
+}
+
+.menu-item > a:hover {
+	color: blue !important;
+}
+
+.topic {
+	height: 100px;
+}
+
+#aboutme h1 {
+	text-align:center;
+	margin-top: 10%;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#aboutme p {
+	text-align:center;
+}
+
+#aboutmebackground {
+	background-color: #D3E2FF;
+}
+
+#melvilleimg {
+	height: 140px;
+}
+
+.boxtest {
+	background-color:grey;
+}
+
+
+#description {
+	float:left;
+}
+
+hr {
+	border: 0;
+	clear:both;
+	display:block;
+	width: 96%;               
+	background-color:#111111;
+	height: 1px;
+}
+
+#aboutme > hr {
+	margin-top: 40px;
+	width: 70%;
+}
+
+#intro > hr {
+	width: 70%;
+	margin-top: 40px;
+}
+
+.morebtn {
+	background-color: rgba(255,255,255,0);
+	border: none;
+	outline:none;
+}
+
+#moreaboutmebtn {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#nextbtn {
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.morebtn > p > span {
+	color: #111111;
+	font-weight: bold;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+
+#nationalsbannerimg {
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+#scio4img {
+	height: 300px;
+}
+
+#overallwin1img {
+	height: 250px;
+	float: left;
+}
+
+.heading {
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.event-list-headers {
+	font-weight: bold;
+}	
+
+#roboticsHeading {
+	background: url("images/backgrounds/circuitBoard.jpg") no-repeat fixed;
+}
+
+.divider {
+	background: rgba(0,0,0,.4);
+	border: 1px solid black;
+	margin-bottom: 20px;
+	height: 120px;
+	overflow: hidden;
+}
+
+#scienceolympiadHeading {
+	background: url(images/backgrounds/galaxy.jpg) 100% no-repeat fixed;
+}
+
+#ftcanimation {
+	height:300px; 
+	width: 500px;
+	frameborder: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#androidStudioimg {
+	margin-top: 10px;
+}
+
+#musicHeading {
+	background: url("images/backgrounds/music.jpg") no-repeat fixed;
+}
+
+#scmeaimg {
+	height: 300px;
+}
+
+#sportsHeading {
+	background: url("images/backgrounds/soccerField.jpg") bottom right no-repeat fixed;
+}
+
+#danceHeading {
+	background: url("images/backgrounds/stage.jpg") center top no-repeat fixed;
+}
+
+#bhangra8img {
+	height: 320px;
+	margin-bottom: 20px;
+}
+
+.lastdiv {
+	margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+	.lastpic {
+		margin-bottom: 40px;
+	}
+}
+
+#blogHeading {
+	background: url("images/backgrounds/keyboard.jpg") center center no-repeat fixed;
+}
+
+.centerpic {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#drumsetimg {
+	height: 254px;
+	margin-bottom: 20px;
+}
+
+#soccerTeamimg {
+	height: 270px;
+	margin-bottom: 20px;
+}
+
+#soccer1img {
+	height: 300px;
+}
+
+#bhangra9img {
+	height: 320px;
+}
+
+#puzzlesandmoreHeading {
+	background: url("images/backgrounds/puzzle.jpg") no-repeat fixed;
+}
+
+#loader-wrapper{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #999999;
+}
+
+.loader {
+	border: 10px solid #999999;
+	border-radius: 50%;
+	z-index: 10000;
+}
+
+#loaderouter {
+	animation: spin 2s linear infinite;
+	border-left: 10px solid blue;
+	border-right: 10px solid red;
+	height: 220px;
+	width: 220px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -110px 0 0 -110px;
+}
+
+#loaderimg {
+	position: absolute;
+	height: 80px;
+	top:50%;
+	left: 50%;
+	margin: -40px 0 0 -40px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#pro-pic {
+	height: 500px;
+}
+
+#pro-pic-div {
+	margin-top: 40px;
+	border-radius: 150px;
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+}
+
+.blog-entry-img {
+	height: 1000px;
+	border: 3px solid grey; 
+	border-radius: 25px;
+}
+
+#blog-archive {
+	position: fixed;
+	left: 50%;
+	top: 50%; 
+	margin-left: -22%;
+	margin-top: -24%;
+	z-index: 10000;
+}
+
+#blog-modal-content {
+	height: 300%;
+	width: 200%;
+}
+
+#connect-background { 
+	background-color: grey;
+}
+
+.centerbutton {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#facebook-text {
+	margin-top: 20px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* .puzzle-modal {
+	position: fixed;
+	vertical-align: center;
+	right: 50%;
+	left: 50%;
+	margin-left: -22%;
+	margin-top: -24%;
+	z-index: 10000;
+}
+
+.puzzle-modal-content {
+	width: 800px;
+} */
+	
+
+/* #blogslides > .left {
+	margin-right: 50px;
+}
+
+#blogslides > .right {
+	margin-left: 50px;
+} */
