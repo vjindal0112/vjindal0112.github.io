@@ -49,7 +49,6 @@ function onNavbarItemClick(currentli) {
 
 function scrollTo(id) {
 	// animate scroll
-	console.log(id);
 	if ($("." + id).attr('class') == $('.aboutme').attr('class') || $("." + id).attr('class') == $('.connect').attr('class')) {
 		headerHeight = 50;
 	} else {
@@ -88,7 +87,6 @@ function onScroll() {
 		if (currentPos >= (currentElem.position().top - headerHeight) && currentPos < (currentElem.position().top + currentElem.height()) - headerHeight) {
 			$('.active.menu-Item').removeClass('active');
 			$("." + this).addClass('active');
-			console.log("." +this);
 			/* if ($("." + this).parent().parent().attr("class") == $(".dropdown").attr('class')) {
 				$('.dropdown').addClass('active');
 			} else {
@@ -111,7 +109,6 @@ function checkScreenWidth() {
 function checkCarouselHeight() {
 	// need to debug more !!!!!!!!!!!!!!!!!!!!!!
 	var screenHeight = screen.height;
-	console.log(screenHeight);
 	var shortestimgHeight = $('#shortestimg').height();
 	if (screenHeight >= shortestimgHeight) {
 		$('.item-main').css('max-height', shortestimgHeight);
