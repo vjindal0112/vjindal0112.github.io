@@ -3,7 +3,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #E3F2FD;
+	background-color: #D9E4FF;
 	overflow-x:hidden;
 }
 
@@ -13,6 +13,11 @@ html {
 	max-height: 100%;
 	box-sizing: border-box;
 }
+
+.container {
+	background-color:#f7f7f7;
+}
+	
 
 .container-fluid {
 	padding: 0;
@@ -171,6 +176,10 @@ hr {
 	padding-bottom: 20px;
 }
 
+.headerdiv {
+	height: 120px;
+}
+
 .event-list-headers {
 	font-weight: bold;
 }	
@@ -227,6 +236,16 @@ hr {
 
 .lastdiv {
 	margin-bottom: 80px;
+}
+
+.firstdiv {
+	padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+	.firstimg {
+		padding-top: 20px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -342,6 +361,10 @@ hr {
 
 .connect-background { 
 	background-color: grey;
+}
+
+#connect {
+	background-color: grey !important;
 }
 
 .centerbutton {
