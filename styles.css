@@ -258,6 +258,16 @@ hr {
 	background: url("images/backgrounds/keyboard.jpg") center center no-repeat fixed;
 }
 
+#blog-title {
+	text-align: center;
+}
+
+.blog-div {
+	background-color: #FFFFFF;
+	border: 3px solid grey;
+	border-radius: 25px;
+}
+
 .centerpic {
 	display: block;
 	margin-right: auto;
@@ -337,12 +347,6 @@ hr {
 	height: 300px;
 	width: 300px;
 	overflow: hidden;
-}
-
-.blog-entry-img {
-	height: 1000px;
-	border: 3px solid grey; 
-	border-radius: 25px;
 }
 
 #blog-archive {
