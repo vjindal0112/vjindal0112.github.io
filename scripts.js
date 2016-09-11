@@ -117,6 +117,10 @@ function checkCarouselHeight() {
 	}
 }
 
+function goBack() {
+	window.history.back();
+}
+
 /*function checkDownloadbtn() {
 	var archivedict = {0:"Pencils", 1: "Pencils2", 2: "Pencils3"}
 	var currentIndex = $('.blog-item.active').index();
