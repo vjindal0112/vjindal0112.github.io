@@ -7,6 +7,11 @@ function main() {
 		checkCarouselHeight();
 	});
 	
+	setTimeout(function() {
+		$('#loader-wrapper').css("display", "none");
+		console.log("we did it");
+	}, 10000);
+	
 	// animate carousel
 	$('#slideShow').carousel({
 		interval: 4444
