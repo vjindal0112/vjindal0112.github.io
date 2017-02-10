@@ -157,7 +157,7 @@ hr {
 }
 
 #Scio4img {
-	height: 300px;
+	height: 400px;
 }
 
 #scio-nats-highlights {
@@ -198,6 +198,10 @@ hr {
 
 #scienceolympiadHeading {
 	background: url(images/backgrounds/galaxy.jpg) 100% no-repeat fixed;
+}
+
+.school_header {
+	font-size: 15px;
 }
 
 #ftcanimation {
