@@ -160,13 +160,13 @@ hr {
 	height: 400px;
 }
 
-#scio-nats-highlights {
-	margin-top: 60px;
-}
-
 #overallwin1img {
 	height: 250px;
 	float: left;
+}
+
+.sciovids {
+	margin-top: 30px;
 }
 
 .heading {
@@ -298,7 +298,7 @@ hr {
 	margin-left: auto;
 }
 
-#drumsetimg {
+#jazzloftimg {
 	height: 254px;
 	margin-bottom: 20px;
 }
@@ -403,10 +403,10 @@ hr {
 	margin-bottom: 50px;
 }
 
-#facebook-text {
-	margin-top: 20px;
+#connect-text {
+	margin-top: 16px;
 	color: white;
-	font-size: 16px;
+	font-size: 22px;
 	font-weight: bold;
 }
 
