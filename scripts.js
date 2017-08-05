@@ -31,12 +31,6 @@ function main() {
 		checkScreenWidth();
 	});
 	
-	/*$('#blogslides').bind('slid', checkDownloadbtn());
-	
-	($('.blog-archive-toggle').click(function() {
-		checkDownloadbtn();
-	}); */
-	
 	$(window).scroll(onScroll);
 	
 	$('#topbtn').click(function() {
@@ -92,11 +86,6 @@ function onScroll() {
 		if (currentPos >= (currentElem.position().top - headerHeight) && currentPos < (currentElem.position().top + currentElem.height()) - headerHeight) {
 			$('.active.menu-Item').removeClass('active');
 			$("." + this).addClass('active');
-			/* if ($("." + this).parent().parent().attr("class") == $(".dropdown").attr('class')) {
-				$('.dropdown').addClass('active');
-			} else {
-				$('.dropdown').removeClass('active');
-			} */
 		}
 	}); 
 	
@@ -125,18 +114,6 @@ function checkCarouselHeight() {
 function goBack() {
 	window.history.back();
 }
-
-/*function checkDownloadbtn() {
-	var archivedict = {0:"Pencils", 1: "Pencils2", 2: "Pencils3"}
-	var currentIndex = $('.blog-item.active').index();
-	console.log($('.blog-item.active').index());
-	for (var index in archivedict) {
-		if (currentIndex == index) {
-			$('#downloadbtn').attr('href','images/blog/' + archivedict[index] + '.pdf');
-		}
-	}
-	
-} */
 
 $(document).ready(function () {
 	window.onload = function () {
