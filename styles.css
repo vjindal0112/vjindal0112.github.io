@@ -17,7 +17,7 @@ html {
 .container {
 	background-color:#f7f7f7;
 }
-	
+
 
 .container-fluid {
 	padding: 0;
@@ -106,7 +106,7 @@ hr {
 	border: 0;
 	clear:both;
 	display:block;
-	width: 96%;               
+	width: 96%;
 	background-color:#111111;
 	height: 1px;
 }
@@ -156,8 +156,10 @@ hr {
 	margin-bottom: 20px;
 }
 
-#Scio4img {
-	height: 400px;
+#mousetrapVehicle1img {
+	padding-top: 70px;
+	padding-bottom: 0px;
+	height: 350px;
 }
 
 #overallwin1img {
@@ -182,7 +184,7 @@ hr {
 
 .event-list-headers {
 	font-weight: bold;
-}	
+}
 
 #roboticsHeading {
 	background: url("images/backgrounds/circuitBoard.jpg") no-repeat fixed;
@@ -202,10 +204,11 @@ hr {
 
 .school_header {
 	font-size: 15px;
+	font-weight: bold;
 }
 
 #ftcanimation {
-	height:300px; 
+	height:300px;
 	width: 500px;
 	frameborder: 0;
 	display: block;
@@ -270,14 +273,14 @@ hr {
 	background-color: #FFFFFF;
 	border: 3px solid grey;
 	border-radius: 25px;
-	margin-top:80px; 
-	padding-left: 20px; 
+	margin-top:80px;
+	padding-left: 20px;
 	padding-right: 20px;
 	margin-bottom: 20px;
 }
 
 .blog-content {
-	font-family: Calibri; 
+	font-family: Calibri;
 	font-size: 15px;
 }
 
@@ -376,7 +379,7 @@ hr {
 #blog-archive {
 	position: fixed;
 	left: 50%;
-	top: 50%; 
+	top: 50%;
 	margin-left: -22%;
 	margin-top: -24%;
 	z-index: 10000;
@@ -387,7 +390,7 @@ hr {
 	width: 200%;
 }
 
-.connect-background { 
+.connect-background {
 	background-color: grey;
 }
 
@@ -423,7 +426,7 @@ hr {
 .puzzle-modal-content {
 	width: 800px;
 } */
-	
+
 
 /* #blogslides > .left {
 	margin-right: 50px;
