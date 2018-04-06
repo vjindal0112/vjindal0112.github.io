@@ -216,6 +216,7 @@ hr {
 
 #ftcanimation {
 	height: 100%;
+	width: 75%;
 	frameborder: 0;
 	display: block;
 	margin-left: auto;
@@ -262,9 +263,15 @@ hr {
 	}
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
 	.lastpic {
 		margin-bottom: 40px;
+	}
+/* } */
+
+@media (max-width: 768px) {
+	.disappearingHeader {
+		display:none;
 	}
 }
 
