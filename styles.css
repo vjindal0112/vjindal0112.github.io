@@ -159,7 +159,7 @@ hr {
 #mousetrapVehicle1img {
 	padding-top: 70px;
 	padding-bottom: 0px;
-	height: 350px;
+	width: 80%;
 }
 
 #overallwin1img {
@@ -168,6 +168,9 @@ hr {
 }
 
 .sciovids {
+	position:relative;
+	height:85%;
+	width: 80%;
 	margin-top: 30px;
 }
 
@@ -208,8 +211,7 @@ hr {
 }
 
 #ftcanimation {
-	height:300px;
-	width: 500px;
+	height: 100%;
 	frameborder: 0;
 	display: block;
 	margin-left: auto;
@@ -225,7 +227,7 @@ hr {
 }
 
 #scmeaimg {
-	height: 300px;
+	width: 80%;
 }
 
 #sportsHeading {
@@ -237,7 +239,8 @@ hr {
 }
 
 #bhangra8img {
-	height: 320px;
+	position: relative;
+	width: 80%;
 	margin-bottom: 20px;
 }
 
@@ -302,21 +305,24 @@ hr {
 }
 
 #jazzloftimg {
-	height: 254px;
+	position: relative;
+	width: 80%;
 	margin-bottom: 20px;
 }
 
 #soccerTeamimg {
-	height: 270px;
+	width: 80%;
 	margin-bottom: 20px;
 }
 
 #soccer1img {
-	height: 300px;
+	position: relative;
+	width: 80%;
 }
 
 #bhangra9img {
-	height: 320px;
+	position: relative;
+	width: 80%;
 }
 
 #puzzlesandmoreHeading {
