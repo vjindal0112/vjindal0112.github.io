@@ -67,6 +67,20 @@ html {
 	border-bottom:none;
 }
 
+
+#nameHeaderSmall {
+	display: none;
+}
+
+ @media (max-width: 768px) { /*768px */
+	#nameHeaderSmall {
+		display: initial;
+	}
+	#nameHeaderBig {
+		display: none;
+	}
+}
+
 .menu-item > a:hover {
 	color: blue !important;
 }
