@@ -404,7 +404,10 @@ hr {
 }
 
 #pro-pic {
-	height: 500px;
+	height: 450px;
+	margin-left: 55%;
+	transform: translateX(-50%);
+	margin-top: -10px;
 }
 
 #pro-pic-div {
